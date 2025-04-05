@@ -4,13 +4,13 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/
 import { getFirestore, doc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBqOKgb9ikjHi9Dqd3q0DzL-1M1U6hiAqA",
-    authDomain: "ovacare-64b6d.firebaseapp.com",
-    projectId: "ovacare-64b6d",
-    storageBucket: "ovacare-64b6d.firebasestorage.app",
-    messagingSenderId: "1037568236918",
-    appId: "1:1037568236918:web:1f35a12337c79dc6f0ae57",
-    measurementId: "G-ZF80Q3ZZ36"
+    apiKey: "API_KEY",
+    authDomain: "authDomain",
+    projectId: "projectId",
+    storageBucket: "storageBucket",
+    messagingSenderId: "messagingSenderId",
+    appId: "appId",
+    measurementId: "measurementId"
 };
 
 // Initialize Firebase
