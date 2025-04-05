@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { db, logout } from "../firebase/firebaseConfig";
 import { collection, getDocs } from "firebase/firestore";
-import "./History.css"; // External CSS for styling
+import "./History.css"; 
 
 const History = () => {
   const [data, setData] = useState([]);
