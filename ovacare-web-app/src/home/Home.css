@@ -1,0 +1,118 @@
+.chat-box {
+    background: #f0f8ff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 2px solid rgb(157, 231, 255);
+    box-shadow: 2px 3px 5px rgb(235, 235, 235);
+    display: inline-block;
+}
+
+.chat-box:hover {
+    background: #dff0ff;
+    box-shadow: 2px 3px 5px rgb(200, 200, 200);
+}
+
+.chat-box p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.chat-box b {
+    font-weight: bold;
+    font-size: 16px;
+    color: dodgerblue;
+}
+
+.chat-box .profile-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 50px;
+    border: 5px solid dodgerblue;
+}
+
+.chat-box .username {
+    margin-top: 23px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.userid {
+    display: none;
+    font-size: 14px;
+    color: black;
+}
+
+.chat-box button {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.chat-box .div-title {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 20px 5px 10px;
+    border-radius: 5px;
+}
+
+.chat-box .div-pairs {
+    display: flex;
+    margin-top: 10px;
+}
+
+.chat-box .div-key {
+    flex: 1;
+    font-size: 14px;
+}
+
+.chat-box .div-value {
+    flex: 2;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user-info {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(203, 229, 255);
+}
+
+.user-info .user-info-img {
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    object-fit: contain;
+}
+
+.user-info .title-medium {
+    flex: 2;
+    margin-left: 10px;
+    margin-top: 22.5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.user-info .user-email {
+    margin-left: 10px;
+    margin-top: 22.5px;
+    flex: 2;
+    font-weight: bold;
+    font-style: italic;
+    color: dodgerblue;
+}
+
+.user-info .logout-btn {
+    flex: 1;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 50px;
+}
+  
